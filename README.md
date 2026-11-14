@@ -91,6 +91,13 @@ defaults delete com.shivankannan.vmail
 
 If you used iCloud, also delete the **Vmail** folder in iCloud Drive.
 
+## Other apps
+
+- **[Triview](https://github.com/shivankannangit/triview-releases):** preview a web page on desktop, tablet and
+  mobile side by side.
+- **[Vivvy DAW](https://github.com/shivankannangit/vivvy-releases):** play and practise your music, with a
+  visualizer, markers, loops and Arturia MiniLab 3 support.
+
 ---
 
 Vmail isn't affiliated with or endorsed by Google. Gmail, Google Calendar and Google Drive are
