@@ -15,8 +15,8 @@ Google Drive for each account, each in its own separate session.
   sign-in pop-ups open inside the window.
 - **Sidebar at a glance:** each account's profile picture, unread count and Google storage use.
   Collapse it to pictures only with ⌃⌘S.
-- **Locked and encrypted.** Vmail opens locked, unlocks with your password or Touch ID, and locks again
-  when you press **Esc twice**.
+- **Encrypted, with no extra password.** Your data's key is kept in your Mac's Keychain, so Vmail opens straight away.
+  Press **Esc twice** to lock it while it's open.
 - **Light, Dark or System** appearance for the app, and separately for Google's pages
   (View ▸ Page Theme).
 - **Optional iCloud Drive sync** of your account list and settings between your Macs.
@@ -32,13 +32,8 @@ with a paid Apple Developer certificate. Open **System Settings ▸ Privacy & Se
 click **Open Anyway** (or Control-click Vmail in Applications and choose **Open**). You only need to do
 this once.
 
-On first launch Vmail asks you to:
-
-- choose where to keep its data: **on this Mac** or in **iCloud Drive** (shared by your Macs);
-- set a **password** and answer **three security questions** (they let you reset a forgotten password);
-- optionally turn on **Touch ID**.
-
-Then add your accounts with **⇧⌘N** and sign in with Google as usual.
+On first launch Vmail asks you to sign in to your Vcloud account (your Seimu account), which keeps your list of
+accounts on every Mac you use. Then add your accounts with **⇧⌘N** and sign in with Google as usual.
 
 ## Updating
 
@@ -55,8 +50,8 @@ Versions are named by release date, e.g. `20261113`. A second release on the sam
 - **Everything Vmail saves is encrypted** (AES-256-GCM) in a single file. That covers your account
   list, your settings and the Google sign-in cookies that keep you signed in. Email addresses and profile
   pictures are held in memory only.
-- The encryption key is protected by your Vmail password, by your security answers, and optionally by
-  a Touch ID key in your Mac's Secure Enclave.
+- The encryption key is kept in your Mac's Keychain, protected by your Mac's login. Press **Esc twice** to lock
+  Vmail while it's open; Touch ID or your Mac's password unlocks it.
 - Web data such as caches and page storage is kept in memory only and never written to disk.
 - Vmail only connects to Google, plus GitHub when you check for updates. There's no analytics or tracking.
 
@@ -73,7 +68,6 @@ Versions are named by release date, e.g. `20261113`. A second release on the sam
 | Reload | ⌘R |
 | Zoom in / out / actual size | ⌘+ / ⌘− / ⌘0 |
 | Collapse or expand sidebar | ⌃⌘S |
-| Lock | Esc, Esc |
 
 ## Uninstalling
 
